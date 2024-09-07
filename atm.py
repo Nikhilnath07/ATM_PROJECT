@@ -1,7 +1,7 @@
 class ATM:
     def __init__(self, pin, balance=0):
         self.pin = pin
-        selfc.balance = balance
+        self.balance = balance
         self.transaction_history = []
 
     def verify_pin(self):
